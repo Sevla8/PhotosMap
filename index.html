@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home</title>
+	<!-- import jquery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- import bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- import bootstrap js -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- import font awesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- import custom css -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- import custom js -->
+	<script src="js/script.js"></script>
+	<!-- import jvectormap -->
+	<link rel="stylesheet" href="jquery-jvectormap-2.0.5.css">
+	<script src="jquery-jvectormap-2.0.5.min.js"></script>
+	<script src="/assets/jquery-jvectormap-world-mill-en.js"></script>
+</head>
+<body>
+	<script>
+		$(function(){
+			$('#world-map').vectorMap({map: 'world_mill'});
+		});
+	</script>
+</body>
+</html>
